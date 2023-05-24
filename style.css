@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+img {
+    height: inherit;
+}
+
+a {
+    height: inherit;
+}
+
+  header {
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    height: 15vh;
+  }
+  
+  h3 {
+    margin: 10px 0;
+  }
+  
+  .flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    overflow-x: auto; /* Horizontaal scrollen */
+  }
+  
+  .thumbnail {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .thumbnail a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .thumbnail:hover {
+    opacity: 0.8;
+  }
+  
+  .caption {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .filler-thumbnail {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc; /* Vervang dit met de gewenste grijstint */
+  }
