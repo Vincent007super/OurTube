@@ -11,7 +11,22 @@ img {
 
 a {
     height: inherit;
+    text-decoration: none;
+    color: inherit;
 }
+
+  .wrapper,.wrapper2{
+    display: flex;
+  }
+
+  .wrapper {
+    width: 60%;
+  }
+
+  .wrapper2 {
+    width: 100%;
+    justify-content: space-between;
+  }
 
   header {
     background-color: rgb(245, 245, 245);
@@ -29,14 +44,25 @@ main {
     margin: 10px;
   }
   
-  .flexbox-container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    overflow-x: scroll;
-    overflow-y: hidden;
+  h2 {
+    margin: 0;
+  }
+
+  h1 {
+    margin-top: 1vh !important;
+    margin: 0;
   }
   
+  .flexbox-container1,.flexbox-container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+.flexbox-container1{
+  margin-bottom: 7vw;
+}
+
   .thumbnail {
     height: 320px;
     background-size: cover;
