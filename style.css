@@ -6,6 +6,7 @@ body {
   
 img {
     height: inherit;
+    border-radius: 35px;
 }
 
 a {
@@ -16,23 +17,28 @@ a {
     background-color: rgb(245, 245, 245);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     padding: 10px;
-    height: 15vh;
+    padding-left: 3vw;
+    height: 8vh;
   }
   
+main {
+  margin: 3vw;
+}
+
   h3 {
-    margin: 10px 0;
+    margin: 10px;
   }
   
   .flexbox-container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    overflow-x: auto; /* Horizontaal scrollen */
+    overflow-x: scroll;
+    overflow-y: hidden;
   }
   
   .thumbnail {
-    width: 150px;
-    height: 150px;
+    height: 320px;
     background-size: cover;
     background-position: center;
   }
