@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+img {
+   width: 10vw;
+   height: 5vw;
+    border-radius: 8px;
+    background-repeat:round;
+}
+
+a {
+    height: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+  header {
+    background-color: rgb(245, 245, 245);
+    background-image: url(media/film.png);
+    background-repeat:no-repeat;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    padding-left: 3vw;
+    height: 8vh;
+  }
+  
+main {
+  margin: 3vw;
+}
+
+  h3 {
+    margin: 10px;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: medium;
+  }
+
+  h1 {
+    margin-top: 1vh !important;
+    margin: 0;
+    font-size: x-large;
+  }
+
+  #back{
+    position: fixed;
+    
+    filter: blur(895px);
+    z-index: -1;
+    right: 0;
+    top: 0;
+    min-width: 150%; 
+    min-height: 350%;
+  }
+
+  #logo{
+    width: inherit;
+    height: inherit;
+  }
+
+  #video{
+    height: 95vh;
+    width: 80vw;
+  }
+
+#wrapper1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#wrapper2{
+    display: flex;
+    flex-direction: column;
+    height: 145vh;
+}
+
+#wrapper,
+#wrapper2,
+#wrapper3,
+#wrapper4 {
+  display: flex !important;
+}
+
+#wrapper3 {
+  height: inherit;
+  justify-content: space-between;
+}
+
+#wrapper4 {
+  width: 65%;
+  align-items: center;
+}
+  .flexbox-container1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 7vw;
+    flex-direction: column;
+  }
+
+  .thumbnail {
+    height: 16.5vw;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .thumbnail a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .thumbnail:hover {
+    opacity: 0.8;
+  }
+  
+  .caption {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .filler-thumbnail {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc; /* Vervang dit met de gewenste grijstint */
+  }
